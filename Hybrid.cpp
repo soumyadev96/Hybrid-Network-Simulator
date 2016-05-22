@@ -276,6 +276,8 @@ int changeOCtoFrame(int source,int Bs,int destination)
 }
  
  
+ 
+ 
 int checkFrame(int source,int Bs,int dest)
 {
     if((RS[source]==0||RS[source]==2)&&(RS[dest]==0||RS[dest]==2))
@@ -292,6 +294,8 @@ int checkFrame(int source,int Bs,int dest)
     }
 	return 0;
 }
+
+
 
 
 
